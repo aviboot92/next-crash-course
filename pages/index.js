@@ -4,7 +4,6 @@ import ArticleList from "./../components/ArticleList";
 // @uthor-VAK
 
 export default function Home({ articles }) {
-  console.log(articles);
   return (
     <>
       <Head>
