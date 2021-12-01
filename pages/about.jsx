@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Meta from "./../components/Meta";
 
 const defaultProps = {};
 
@@ -8,9 +9,7 @@ const defaultProps = {};
 const About = () => {
   return (
     <>
-      <Head>
-        <title>About</title>
-      </Head>
+      <Meta title="About" />
       <h1>About</h1>
     </>
   );
