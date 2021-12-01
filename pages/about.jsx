@@ -1,4 +1,4 @@
-import React from "react";
+import Head from "next/head";
 
 const defaultProps = {};
 
@@ -8,6 +8,9 @@ const defaultProps = {};
 const About = () => {
   return (
     <>
+      <Head>
+        <title>About</title>
+      </Head>
       <h1>About</h1>
     </>
   );
