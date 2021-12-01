@@ -6,16 +6,20 @@ import headerStyles from "./../styles/Header.module.css";
 const Header = () => {
   const x = 4;
   return (
-    <div>
-      <h1 className="title">Web Dev News</h1>
+    <>
+      <h1 className="title">
+        Techsophy <span>News</span>
+      </h1>
+      {/* 
+      //----Just for a demo ----//
       <style jsx>
         {`
           .title {
             color: ${x > 3 ? "blue" : "red"};
           }
         `}
-      </style>
-    </div>
+      </style> */}
+    </>
   );
 };
 
